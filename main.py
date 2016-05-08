@@ -6,7 +6,7 @@ url_list ="urls.csv"
 
 #If you want to email of dead urls change 1 to 0.
 email_list = 1
-dead_codes = [404, 301]
+dead_codes = [404]
 
 def get_urls(cvs_list):
 	with open(cvs_list, 'r') as f:
@@ -40,4 +40,4 @@ for url in urls:
 		dead_urls[url] = status_code
 	
 print("-==========================-")	
-print(dead_urls)
+
