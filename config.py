@@ -5,10 +5,11 @@ url_list ="urls.csv"
 email_list = 1
 
 #status codes you wish to watch for and email.
-dead_codes = [404]
+status_codes = [404, 301]
 
-email_user_name = ""
-email_password = ""
-email_address = ""
-
-email_dest_address = ""
+user_name = "alexs.test.mail@gmail.com"
+password = "blackbean123"
+email_address = "alexs.test.mail@gmail.com"
+smtp_server = "smtp.gmail.com"
+smtp_port = "587"
+email_dest_address = "drmcpirateninja@gmail.com"
