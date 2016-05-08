@@ -4,7 +4,7 @@ A URL status checker built with python 3
 <h2>About</h2>
 This project will read a list of URLs from a CSV file and return the status of the site.
 
-<h3>Dependancies<h3>
+<h2>Dependancies</h2>
 This script requires the Python 3 modules: requests and csv
 
 <h2>How to Use</h2>
