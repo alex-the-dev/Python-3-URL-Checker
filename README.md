@@ -2,7 +2,19 @@
 A URL status checker built with python 3
 
 <h2>About</h2>
-This project will read a list of URLs from a CVS file and return the status of the site.
+This project will read a list of URLs from a CSV file and return the status of the site.
+
+<h3>Dependancies<h3>
+This script requires the Python 3 modules: requests and csv
+
+<h2>How to Use</h2>
+Enter the URLS that you wish to check into the urls.csv file seperated by commas.<br>
+e.g.<br>
+http://www.google.com, http://www.github.com, http://www.python.com
+<br>
+Please note that all urls <strong>must</strong> have http:// included in the url.
+<br>
+Run the script from the command line by typing python main.py while in the same directory as the script.
 
 <h2> Status Codes </h2>
 <ul>
