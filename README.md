@@ -5,73 +5,75 @@ A URL status checker built with python 3
 This project will read a list of URLs from a CVS file and return the status of the site.
 
 <h2> Status Codes </h2>
-1×× Informational
-100 Continue
-101 Switching Protocols
-102 Processing
-2×× Success
-200 OK
-201 Created
-202 Accepted
-203 Non-authoritative Information
-204 No Content
-205 Reset Content
-206 Partial Content
-207 Multi-Status
-208 Already Reported
-226 IM Used
-3×× Redirection
-300 Multiple Choices
-301 Moved Permanently
-302 Found
-303 See Other
-304 Not Modified
-305 Use Proxy
-307 Temporary Redirect
-308 Permanent Redirect
-4×× Client Error
-400 Bad Request
-401 Unauthorized
-402 Payment Required
-403 Forbidden
-404 Not Found
-405 Method Not Allowed
-406 Not Acceptable
-407 Proxy Authentication Required
-408 Request Timeout
-409 Conflict
-410 Gone
-411 Length Required
-412 Precondition Failed
-413 Payload Too Large
-414 Request-URI Too Long
-415 Unsupported Media Type
-416 Requested Range Not Satisfiable
-417 Expectation Failed
-418 I'm a teapot
-421 Misdirected Request
-422 Unprocessable Entity
-423 Locked
-424 Failed Dependency
-426 Upgrade Required
-428 Precondition Required
-429 Too Many Requests
-431 Request Header Fields Too Large
-444 Connection Closed Without Response
-451 Unavailable For Legal Reasons
-499 Client Closed Request
-5×× Server Error
-500 Internal Server Error
-501 Not Implemented
-502 Bad Gateway
-503 Service Unavailable
-504 Gateway Timeout
-505 HTTP Version Not Supported
-506 Variant Also Negotiates
-507 Insufficient Storage
-508 Loop Detected
-510 Not Extended
-511 Network Authentication Required
-599 Network Connect Timeout Error
+<ul>
+<li>1×× Informational</li>
+<li>100 Continue</li>
+<li>101 Switching Protocols</li>
+<li>102 Processing</li>
+<li>2×× Success</li>
+<li>200 OK</li>
+<li>201 Created</li>
+<li>202 Accepted</li>
+<li>203 Non-authoritative Information</li>
+<li>204 No Content</li>
+<li>205 Reset Content</li>
+<li>206 Partial Content</li>
+<li>207 Multi-Status</li>
+<li>208 Already Reported</li>
+<li>226 IM Used</li>
+<li>3×× Redirection</li>
+<li>300 Multiple Choices</li>
+<li>301 Moved Permanently</li>
+<li>302 Found</li>
+<li>303 See Other</li>
+<li>304 Not Modified</li>
+<li>305 Use Proxy</li>
+<li>307 Temporary Redirect</li>
+<li>308 Permanent Redirect</li>
+<li>4×× Client Error</li>
+<li>400 Bad Request</li>
+<li>401 Unauthorized</li>
+<li>402 Payment Required</li>
+<li>403 Forbidden</li>
+<li>404 Not Found</li>
+<li>405 Method Not Allowed</li>
+<li>406 Not Acceptable</li>
+<li>407 Proxy Authentication Required</li>
+<li>408 Request Timeout</li>
+<li>409 Conflict</li>
+<li>410 Gone</li>
+<li>411 Length Required</li>
+<li>412 Precondition Failed</li>
+<li>413 Payload Too Large</li>
+<li>414 Request-URI Too Long</li>
+<li>415 Unsupported Media Type</li>
+<li>416 Requested Range Not Satisfiable</li>
+<li>417 Expectation Failed</li>
+<li>418 I'm a teapot</li>
+<li>421 Misdirected Request</li>
+<li>422 Unprocessable Entity</li>
+<li>423 Locked</li>
+<li>424 Failed Dependency</li>
+<li>426 Upgrade Required</li>
+<li>428 Precondition Required</li>
+<li>429 Too Many Requests</li>
+<li>431 Request Header Fields Too Large</li>
+<li>444 Connection Closed Without Response</li>
+<li>451 Unavailable For Legal Reasons</li>
+<li>499 Client Closed Request</li>
+<li>5×× Server Error</li>
+<li>500 Internal Server Error</li>
+<li>501 Not Implemented</li>
+<li>502 Bad Gateway</li>
+<li>503 Service Unavailable</li>
+<li>504 Gateway Timeout</li>
+<li>505 HTTP Version Not Supported</li>
+<li>506 Variant Also Negotiates</li>
+<li>507 Insufficient Storage</li>
+<li>508 Loop Detected</li>
+<li>510 Not Extended</li>
+<li>511 Network Authentication Required</li>
+<li>599 Network Connect Timeout Error</li>
+</ul>
 
 list from [https://httpstatuses.com/](https://httpstatuses.com/). For More infomation on HTTP status codes checkout the [Wikipedia page](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
