@@ -1,12 +1,7 @@
 import csv
 import requests
+import config
 
-#Location of the csv file containing the URLS
-url_list ="urls.csv"
-
-#If you want to email of dead urls change 1 to 0.
-email_list = 1
-dead_codes = [404]
 
 def get_urls(cvs_list):
 	with open(cvs_list, 'r') as f:
@@ -27,7 +22,7 @@ def check_url(url):
 		return "Failed to connect"
 
 
-urllist = get_urls(url_list)
+urllist = get_urls(config.url_list)
 urls = urllist[0]
 
 dead_urls = {}
@@ -36,7 +31,7 @@ for url in urls:
 	status_code = check_url(url)
 	print(url + " - " + str(status_code))
 	
-	if email_list and status_code in dead_codes:
+	if config.email_list and status_code in config.dead_codes:
 		dead_urls[url] = status_code
 	
 print("-==========================-")	
