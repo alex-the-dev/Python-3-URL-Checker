@@ -14,7 +14,42 @@ http://www.google.com, http://www.github.com, http://www.python.com
 <br>
 Please note that all urls <strong>must</strong> have http:// included in the url.
 <br>
+If you wish to email the results change the settings in config.py.
 Run the script from the command line by typing python main.py while in the same directory as the script.
+
+<h2>Config.py</h2>
+will email report of urls, change to 0 to disable email reporting.<br>
+'''
+email_list
+'''
+ This is a list of status codes you want the script to report on.
+'''
+status_codes
+'''
+your SMTP email user name. This is the username you are sending the email from.
+'''
+user_name
+'''
+SMTP password
+'''
+password
+'''
+SMTP email address
+'''
+email_address
+'''
+The email address smtp e.g. smtp.google.com
+'''
+smtp_server
+'''
+The email address smtp port e.g. 25, 587
+'''
+smtp_port
+'''
+The destonation email address for the URL report
+'''
+email_dest_address
+'''
 
 <h2> Status Codes </h2>
 <ul>
