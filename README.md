@@ -14,8 +14,8 @@ http://www.google.com, http://www.github.com, http://www.python.com
 <br>
 Please note that all urls <strong>must</strong> have http:// included in the url.
 <br>
-If you wish to email the results change the settings in config.py.
-Run the script from the command line by typing python main.py while in the same directory as the script.
+If you wish to email the results change the settings in ```config.py```.
+Run the script from the command line by typing ```python main.py``` while in the same directory as the script.
 
 <h2>Config.py</h2>
 will email report of urls, change to 0 to disable email reporting.<br>
