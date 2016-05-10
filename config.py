@@ -13,7 +13,7 @@ user_name = ""
 password = ""
 #Your email address
 email_address = ""
-#The email address smtp e.g. smtp.google.com
+#The email address smtp e.g. smtp.gmail.com
 smtp_server = ""
 #The email address smtp port e.g. 25, 587
 smtp_port = ""
