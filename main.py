@@ -15,12 +15,8 @@ def get_urls(cvs_list):
 def check_url(url):
 	try:
 		r = requests.head(url)
-		
 		return r.status_code
-		#print(url + "-" + str(r.status_code))
-
 	except requests.ConnectionError:
-		#print(url + "failed to connect")
 		return "Failed to connect"
 
 def email(message):
@@ -52,7 +48,9 @@ for url in urls:
 	if config.email_list and status_code in config.status_codes:
 		dead_urls[url] = status_code
 	
-print("-==========================-")	
+print("-==========================-")
+if dead_urls:
+	print("The following URLS were caught" + dead_urls)
 
 if config.email_list and dead_urls:
 

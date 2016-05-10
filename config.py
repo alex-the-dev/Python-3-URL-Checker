@@ -2,7 +2,7 @@
 url_list ="urls.csv"
 
 #If you want to email of dead urls change 1 to 0.
-email_list = 1
+email_list = 0
 
 #status codes you wish to watch for and email.
 status_codes = [404]
