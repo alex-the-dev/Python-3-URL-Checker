@@ -5,7 +5,7 @@ A URL status checker built with python 3
 This project will read a list of URLs from a CSV file and return the status of the site.
 
 <h2>Dependancies</h2>
-This script requires the Python 3 modules: requests and csv
+This script requires the Python 3 modules: ```requests```, ```csv``` and ```smtplib```
 
 <h2>How to Use</h2>
 Enter the URLS that you wish to check into the urls.csv file seperated by commas.<br>
